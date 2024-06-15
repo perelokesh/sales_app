@@ -1,8 +1,24 @@
-# React + Vite
+# Orders Management Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a web application for managing orders, built using React, Chakra UI, and React Query. The application includes features such as theme toggling, authentication, and viewing active and completed orders.
 
-Currently, two official plugins are available:
+## Table of Contents
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- [Features](#features)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Project Structure](#project-structure)
+
+## Features
+
+- **Theme Toggle:** Switch between light and dark themes.
+- **Authentication:** Login functionality with protected routes.
+- **Orders Management:** View and manage active and completed orders.
+- **Order Modal:** View and edit order details in a modal.
+
+## Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/orders-management-app.git
+   cd orders-management-app
